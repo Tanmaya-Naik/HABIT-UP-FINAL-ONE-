@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import Testimonial from "../Components/Testimonial";
 import FeatureCard from "../Components/FeatureCard";
 import MentorSection from "../Components/MentorSection";
+import Footer from "../Components/Footer";
 
 function LandingPage() {
   return (
@@ -149,35 +150,11 @@ function LandingPage() {
           Student Success Stories
         </h2>
 
-        <div
-          style={{
-            display: "flex",
-            gap: "20px",
-            flexWrap: "wrap",
-          }}
-        >
-
-          <Testimonial
-            name="Rahul"
-            image="https://randomuser.me/api/portraits/men/32.jpg"
-            feedback="The habit program helped me stay consistent during placement preparation."
-          />
-
-          <Testimonial
-            name="Priya"
-            image="https://randomuser.me/api/portraits/women/44.jpg"
-            feedback="I improved my focus and daily discipline through mentor guidance."
-          />
-
-          <Testimonial
-            name="Arjun"
-            image="https://randomuser.me/api/portraits/men/55.jpg"
-            feedback="The learning resources and habit tracking changed my routine completely."
-          />
-
-        </div>
+       <Testimonial />
 
       </section>
+
+      <Footer />
 
     </div>
   );

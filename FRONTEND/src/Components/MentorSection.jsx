@@ -31,18 +31,21 @@ function MentorSection() {
           </h2>
 
           <p className="text-yellow-500 text-lg mb-6">
-            Mentor • Educator • Spiritual Guide *PhD in Hypnosis and Hypnotherapy
-          </p>
+  Researcher • Life Coach • Educator • Mentor
+</p>
 
-          <p className="text-zinc-400 leading-8">
-            HabitUP is built on the belief that true
-            transformation comes through consistency,
-            self-awareness and disciplined action.
-            Through mentorship, learning resources
-            and habit-building systems, students are
-            guided towards personal growth,
-            productivity and spiritual well-being.
-          </p>
+<p className="text-zinc-400 leading-8">
+  Dr. Sashi Bhusan Nayak is an accomplished educator,
+  researcher and life coach with expertise in Computer
+  Science, Hypnosis and Hypnotherapy. He has been
+  recognized with prestigious honors including the
+  Junior Scientist Award and the International Research
+  Award in Science, Technology and Management. Through
+  his guidance, students are encouraged to develop
+  discipline, leadership, self-awareness and continuous
+  personal growth while achieving excellence in both
+  academics and life.
+</p>
 
           <div className="mt-8 grid grid-cols-2 gap-6">
 
